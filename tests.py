@@ -5,12 +5,14 @@ import numpy as np
 import sys
 
 
-pathId = 'b95ea2fb-8415-4c54-a6cc-f3d11258b7f8'
-timestampId = "dc32dc29-1664-449a-a09e-ae5042c60f62"
-targetPathId = "4262bc2e-66df-438d-8550-b224462c3722"
-token = "epat_0UdLYCO6WCKS7H52ra30WxJBqMYjmJgsWTndJV8PrplLYjnn7qfgYMo4hcTDrGJb"
+pathId = '8a502f6b-e599-48ac-85ea-875a87bee2f3'
+timestampId = "69991f4b-871a-4bc5-8bd2-b3902c8b4329"
+targetPathId = "c75ffc02-ff41-4c46-915c-4705e58d2386"
+token = "epat_MCGw1tytB0SIIpAwyB6J8ZCNSxJHAhazsOvPj8XdHCzts84MeSeCi3qFdVmwLYgB"
 
 
+el.apiManager.baseUrl = 'https://api.esa.ellipsis-drive.com/v3'
+ai.url = 'https://api.esa.ellipsis-drive.com/v3'
 pathId = sys.argv[1]
 timestampId =  sys.argv[2]
 targetPathId = sys.argv[3]
