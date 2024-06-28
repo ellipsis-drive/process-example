@@ -12,9 +12,9 @@ token = "epat_0UdLYCO6WCKS7H52ra30WxJBqMYjmJgsWTndJV8PrplLYjnn7qfgYMo4hcTDrGJb"
 
 
 pathId = sys.argv[1]
-timestampId =  int(sys.argv[2])
-targetPathId = int(sys.argv[3])
-token = int(sys.argv[4])
+timestampId =  sys.argv[2]
+targetPathId = sys.argv[3]
+token = sys.argv[4]
 
 
 
