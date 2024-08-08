@@ -5,18 +5,16 @@ import numpy as np
 import sys
 
 
-pathId = '8a502f6b-e599-48ac-85ea-875a87bee2f3'
-timestampId = "69991f4b-871a-4bc5-8bd2-b3902c8b4329"
-targetPathId = "c75ffc02-ff41-4c46-915c-4705e58d2386"
-token = "epat_MCGw1tytB0SIIpAwyB6J8ZCNSxJHAhazsOvPj8XdHCzts84MeSeCi3qFdVmwLYgB"
+pathId = 'a479869c-caa6-4b95-acb7-0ce1cfe71828'
+timestampId = "Not available, activate first"
+targetPathId = "19b30a1c-2ea3-49ca-a859-2ff3bd731abe"
+token = "epat_uWDxWqunbjiFvOwpK4j5uofjGqxOsL5Zr3ZkInMrdTvMJ7GvZRe1G7BiNCbjhmPM"
 
 
-el.apiManager.baseUrl = 'https://api.esa.ellipsis-drive.com/v3'
-ai.url = 'https://api.esa.ellipsis-drive.com/v3'
 pathId = sys.argv[1]
-timestampId =  sys.argv[2]
-targetPathId = sys.argv[3]
-token = sys.argv[4]
+timestampId =  int(sys.argv[2])
+targetPathId = int(sys.argv[3])
+token = int(sys.argv[4])
 
 
 
