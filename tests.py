@@ -4,6 +4,8 @@ import numpy as np
 
 import sys
 
+el.apiManager.baseUrl = 'https://api.esa.ellipsis-drive.com/v3'
+
 
 pathId = 'a479869c-caa6-4b95-acb7-0ce1cfe71828'
 timestampId = "Not available, activate first"
