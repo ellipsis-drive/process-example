@@ -16,8 +16,10 @@ token = "epat_uWDxWqunbjiFvOwpK4j5uofjGqxOsL5Zr3ZkInMrdTvMJ7GvZRe1G7BiNCbjhmPM"
 pathId = sys.argv[1]
 timestampId =  sys.argv[2]
 targetPathId = sys.argv[3]
-token = sys.argv[4]
-
+try:
+    token = sys.argv[4]
+except:
+    token = None
 
 
 #retrieve the zoom and bounds of the capture you wish to classify
