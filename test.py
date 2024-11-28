@@ -4,8 +4,13 @@ import numpy as np
 
 import sys
 
+<<<<<<< HEAD
 #el.apiManager.baseUrl = 'https://api.esa.ellipsis-drive.com/v3'
 
+=======
+el.apiManager.baseUrl = 'https://api.esa.ellipsis-drive.com/v3'
+ai.url = 'https://api.esa.ellipsis-drive.com/v3'
+>>>>>>> 7c2be7897787b53c0d3fdfb6345a549515d82de1
 
 pathId = 'a479869c-caa6-4b95-acb7-0ce1cfe71828'
 timestampId = "Not available, activate first"
@@ -14,9 +19,18 @@ targetPathId = "19b30a1c-2ea3-49ca-a859-2ff3bd731abe"
 
 
 pathId = sys.argv[1]
+<<<<<<< HEAD
 timestampId =  int(sys.argv[2])
 targetPathId = int(sys.argv[3])
 
+=======
+timestampId =  sys.argv[2]
+targetPathId = sys.argv[3]
+try:
+    token = sys.argvd[4]
+except:
+    token = None
+>>>>>>> 7c2be7897787b53c0d3fdfb6345a549515d82de1
 
 
 token = el.auth()
