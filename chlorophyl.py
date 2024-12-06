@@ -8,8 +8,6 @@ pathId = sys.argv[1]
 extent = sys.argv[2]
 #parameter indicating in which folder to add the resulting raster
 folderId = sys.argv[3]
-#free parameter with a token
-token = sys.argv[4]
 
 
 info = el.path.get(pathId = pathId)
